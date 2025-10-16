@@ -1,6 +1,7 @@
 # Variables de Entorno
 ### ¿Qué son las variables de entorno?
 # COMPLETAR
+Son nombres con valores que el sistema y los programas pueden leer para saber configuraciones importantes y saber cómo comportarse o dónde encontrar ciertas cosas
 
 ### Para crear un contenedor con variables de entorno
 
