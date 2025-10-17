@@ -25,14 +25,15 @@ docker run -d --name mi_nginx -e username=daena -e role=admin nginx:alpine
 docker run -d --name mi_mysql -P mysql:8.0
 ```
 
-
 ### ¿El contenedor se está ejecutando?
 # COMPLETAR
+Como se observa, el contenedor no se está ejecutando 
 <img width="1249" height="67" alt="image" src="https://github.com/user-attachments/assets/66936593-c2c3-4ea1-8350-ff84258783fc" />
 
 
 ### Identificar el problema
 # COMPLETAR
+El problema es que como se muestra en el mensaje, MySQL necesita una contraseña del usuario root para poder arrancar por seguridad, y como no se proporcionó una entonces el contenedor se detiene inmediatamente.
 <img width="928" height="151" alt="image" src="https://github.com/user-attachments/assets/b05951d1-add5-4fa3-b3b8-41a104e32ee5" />
 
 ### Para crear un contenedor con variables de entorno especificadas
